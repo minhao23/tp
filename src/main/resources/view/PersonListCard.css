@@ -1,0 +1,61 @@
+#cardPane {
+    -fx-background-color: linear-gradient(to right, #2A2E37, #1D1F27); /* Gradient background for the card */
+    -fx-border-color: #4A4F5B; /* Muted border to separate cards */
+    -fx-border-width: 1px;
+    -fx-border-radius: 10px; /* Rounded corners for a smooth card look */
+    -fx-padding: 15;
+    -fx-background-radius: 10px;
+}
+
+/* Style for the main labels (big label) */
+.cell_big_label {
+    -fx-font-family: "Segoe UI Semibold", sans-serif;
+    -fx-font-size: 16px;
+    -fx-text-fill: #ECEFF1; /* Soft light color for good readability */
+    -fx-padding: 5 0 5 0;
+}
+
+/* Style for smaller labels */
+.cell_small_label {
+    -fx-font-family: "Segoe UI", sans-serif;
+    -fx-font-size: 14px;
+    -fx-text-fill: #B0BEC5; /* Lighter text for secondary information */
+    -fx-padding: 2 0 2 0;
+}
+
+/* Style for the tags FlowPane */
+#tags {
+    -fx-hgap: 8;
+    -fx-vgap: 5;
+    -fx-padding: 5 0 5 0;
+}
+
+#tags .label {
+    -fx-background-color: #3E7B91; /* Accent color for tags */
+    -fx-text-fill: #FFFFFF;
+    -fx-padding: 3 6 3 6;
+    -fx-background-radius: 4;
+    -fx-font-size: 12px;
+}
+
+/* Label for the ID field */
+#id {
+    -fx-text-fill: #FFA726; /* Accent color for the ID */
+}
+
+/* Phone, address, email, and remark fields */
+#phone, #address, #email, #remark {
+    -fx-text-fill: #90A4AE; /* Muted gray for contact details */
+}
+
+/* Hover effect for the card pane to make it more interactive */
+#cardPane:hover {
+    -fx-background-color: linear-gradient(to right, #3A3F47, #2D3036);
+    -fx-border-color: #5C6370;
+    -fx-cursor: hand;
+}
+
+/* Optional: Adding a slight shadow to the card */
+#cardPane {
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.25), 8, 0, 0, 0); /* Subtle shadow */
+}
