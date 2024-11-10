@@ -442,7 +442,7 @@ None, as it is an automatic feature.
 | **Email**   | local-part@domain <br> The local-part should only contain alphanumeric characters and these special characters (+_.-). The local-part may not start or end with special characters. <br> The domain name must: <br> - End with a domain label at least 2 characters long. <br> - Have each domain label start and end with alphanumeric characters. <br> - Consist of alphanumeric characters, separated only by hyphens, if any. | ❌ 1/@d10 <br> ❌ hello@a.c <br> ✅ 1@a.com <br> ✅ ho@gmail.com                                |
 | **Address** | No constraint (right-to-left scripts will be displayed left-to-right)                                                                                                                      | ✅ 123 Orchard <br> ✅ 乌节路 123 号 <br> ✅ 123 بستان                                        |
 
---------------------------------------------------------------------------------------------------------------------
+
 ## Command summary
 
 | Action                  | Format, Examples                                                                                                                                                         |
